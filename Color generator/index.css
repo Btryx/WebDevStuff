@@ -1,0 +1,22 @@
+div{
+    text-align: center;
+    margin-top: 20em;
+
+}
+button {
+
+    padding: 1em;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(168, 188, 206);
+    border-radius: 10px;
+}
+
+button:hover {
+    border-color: #151600;
+    box-shadow: 0 0.5em 0.5em -0.2em #404604;
+    transform: translateY(-0.25em);
+    transition: all 0.2s;
+    cursor: pointer;
+}
